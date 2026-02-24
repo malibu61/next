@@ -25,9 +25,9 @@ Tarayıcıda **http://localhost:3000** aç.
 - **JWT_SECRET:** Proje kökünde `.env` oluşturup `JWT_SECRET=...` yazabilirsin; yoksa `docker-compose` içindeki varsayılan kullanılır.
 - **Yerel geliştirme (Docker olmadan):** PostgreSQL çalışır durumda olmalı. `.env` içinde `DATABASE_URL` ve isteğe bağlı `JWT_SECRET` tanımla, sonra `npm install`, `npx prisma migrate deploy`, `npx prisma db seed`, `npm run dev`.
 
-## Rotalar
+## Routes
 
-| Rota | Açıklama |
+| Route | Açıklama |
 |------|----------|
 | `/` | Giriş sayfası |
 | `/dashboard` | Kullanıcı listesi (sayfalama, yaş filtresi) |
